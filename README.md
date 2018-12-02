@@ -2,7 +2,7 @@ This project was inspired by the playlist: https://www.youtube.com/watch?v=qrsle
 
 And the code at https://github.com/mschwarzmueller/reactjs-redux-basics
 
-I used the Create React App to create the initial structure of the app, along with the code from that YouTube playlist.
+I used the Create React App to create the initial structure of the app, along with the code from that YouTube playlist. I changed this code a little bit to make it comply with eslint.
 
 In my version of this app, I make an AJAX request to a PHP file that give me a random number, ever 3 seconds.
 This is done to simulate a self-updating stock ticker.
