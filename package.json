@@ -5,6 +5,9 @@
   "dependencies": {
     "accounting": "^0.4.1",
     "axios": "^0.18.0",
+    "duxpanel": "^1.0.3",
+    "mdn-polyfills": "^5.14.0",
+    "promise-polyfill": "8.1.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-redux": "^5.1.1",

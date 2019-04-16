@@ -8,12 +8,12 @@ export const StockInfo = (props) => {
         <div>
             <div className="row">
                 <div className="col-xs-12">
-                    <p>Stock price ({props.currentName}):</p>
+                    <p>Stock Name: ({props.currentName}):</p>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xs-12">
-                    <p>User Name: {accounting.formatMoney(props.currentPrice)}</p>
+                    <p>Stock Price: {accounting.formatMoney(props.currentPrice)}</p>
                 </div>
             </div>
         </div>

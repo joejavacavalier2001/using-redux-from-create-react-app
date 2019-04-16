@@ -1,5 +1,7 @@
 const stockReducer = (state = {
     name: "TEST",
+    showErrorDialog: false,
+    errorMessage: "",
     price: 0
 }, action) => {
     switch (action.type) {
@@ -7,6 +9,19 @@ const stockReducer = (state = {
         state = {
             ...state,
             price: action.payload
+        };
+        break;
+    case "SET_PRICE_REJECTED":
+        state = {
+            ...state,
+            showErrorDialog: true,
+            errorMessage: action.payload.message
+        };
+        break;
+    case "HIDE_STOCK_ERROR":
+        state = {
+            ...state,
+            showErrorDialog: false
         };
         break;
     default:

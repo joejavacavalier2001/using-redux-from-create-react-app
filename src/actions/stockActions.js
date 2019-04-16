@@ -10,14 +10,14 @@ function setPrice() {
                     if (responseObj.hasOwnProperty('latestPrice')){
                         resolve(responseObj.latestPrice);
                     } else {
-                        reject("response object did not have currentPrice property");
+                        reject(new Error("response object did not have latestPrice property"));
                     }
                 })
                 .catch(function(error){
                     if (error.response) {
-                        reject(error.response.status);
+                        reject(new Error(error.response.status));
                     } else if (error.message) {
-                        reject(error.message);
+                        reject(new Error(error.message));
                     }
                 });
         })
@@ -31,5 +31,12 @@ function setName(name) {
     };
 }
 
-export {setPrice, setName};
+function hideErrorDialog() {
+    return {
+        type: "HIDE_STOCK_ERROR",
+        payload: ""
+    };
+}
+
+export {setPrice, setName, hideErrorDialog};
 
