@@ -14,9 +14,6 @@ If you are checking out this repository for the first time you may need to run t
 npm install
 ```
 <br />
-Also, the duxpanel.css file in your public folder be made into a symbolic link to this file:
-../node_modules/duxpanel/website/dist/duxpanel.css
-
 ## Available Scripts
 
 In the project directory, you can run:
