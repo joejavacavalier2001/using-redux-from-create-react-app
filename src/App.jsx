@@ -1,6 +1,7 @@
 import React from "react";
 import {connect} from "react-redux";
 import {DuxOkDialog} from 'duxpanel';
+import '../node_modules/duxpanel/website/dist/duxpanel.css';
 //import {DuxPanel} from 'duxpanel';
 import PropTypes from 'prop-types';
 
