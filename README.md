@@ -9,6 +9,11 @@ This is done to simulate a self-updating stock ticker.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
+If you are checking out this repository for the first time you may need to run the following command to create the node_modules directory:
+```bash
+npm install
+```
+
 ## Available Scripts
 
 In the project directory, you can run:

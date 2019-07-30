@@ -4,15 +4,15 @@
   "private": true,
   "dependencies": {
     "accounting": "^0.4.1",
-    "axios": "^0.18.0",
-    "duxpanel": "^1.0.3",
-    "mdn-polyfills": "^5.14.0",
+    "axios": "^0.18.1",
+    "duxpanel": "^1.0.4",
+    "mdn-polyfills": "^5.18.0",
     "promise-polyfill": "8.1.0",
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-redux": "^5.1.1",
-    "react-scripts": "2.1.1",
-    "redux": "^4.0.1",
+    "react-scripts": "^3.0.1",
+    "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
     "redux-promise-middleware": "^5.1.1",
     "redux-thunk": "^2.3.0",
@@ -35,6 +35,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "eslint-plugin-jest": "^22.0.0"
+    "eslint-plugin-jest": "^22.14.0",
+    "typescript": "^3.5.3"
   }
 }
