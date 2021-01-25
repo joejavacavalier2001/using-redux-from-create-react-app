@@ -4,7 +4,7 @@ function setPrice() {
     return {
         type: "SET_PRICE",
         payload: new Promise((resolve,reject) => {
-            axios.get("http://rktlebnhwebworks.net/getStockInfoTest.php")
+            axios.get("https://rktlebnhwebworks.net/getStockInfoTest.php")
                 .then(function(response){
                     let responseObj = JSON.parse(response.request.response);
                     if (responseObj.hasOwnProperty('latestPrice')){
